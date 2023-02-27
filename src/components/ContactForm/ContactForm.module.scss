@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+.forms {
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    padding: 50px 0px;
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        padding-left: 60px;
+        .label,
+        .txt {
+            color: #263137;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .txt {
+            margin-top: 25px;
+        }
+        .inputBorder,
+        .inputSelect {
+            border-radius: 20px;
+            border: 1px solid #062575;
+        }
+        .inputBorder {
+            padding: 10px 10px;
+        }
+        .inputSelect {
+            background-color: white;
+            padding: 6px 0px;
+        }
+        .btn {
+            background-color: #263137;
+            border: 1px solid #062575;
+            color: white;
+            padding: 20px 70px;
+            display: flex;
+            align-items: center;
+            align-self: flex-end;
+            margin-right: 80px;
+            border-radius: 20px;
+            transition: 0.3s;
+            &:hover {
+                background-color: #062575;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .form {
+        width: 90% !important;
+    }
+    .btn {
+        padding: 20px 30px !important;
+        margin-right: 0px !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .form {
+        padding-left: 0px !important;
+    }
+}

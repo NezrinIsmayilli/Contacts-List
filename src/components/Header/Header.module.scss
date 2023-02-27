@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+.header {
+    font-family: 'Exo 2', sans-serif;
+    height: 90px;
+    padding: 0 100px;
+    background-color: #263137;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+        font-family: 'DynaPuff', cursive;
+        font-size: 25px;
+        color: white;
+        margin: 0px;
+    }
+    .addButton {
+        background-color: #fffbfb;
+        padding: 10px 30px;
+        color: #263137;
+        font-weight: 600;
+        border-radius: 15px;
+        transition: 0.3s;
+        border: 1px solid #062575;
+        &:hover {
+            background-color: #263137;
+            color: white;
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    header {
+        padding: 0px 5% !important;
+        .title {
+            font-size: 100% !important;
+        }
+        .addButton {
+            padding: 10px 4% !important;
+        }
+    }
+}
+@media only screen and (max-width: 260px) {
+    header {
+        flex-direction: column;
+        .title {
+            margin-top: 20px !important;
+        }
+        .addButton {
+            margin-bottom: 20px;
+            padding: 3px 10px !important;
+        }
+    }
+}

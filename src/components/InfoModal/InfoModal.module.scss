@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+.info {
+    font-family: 'Exo 2', sans-serif;
+
+    .infoTitle {
+        margin: 0;
+        font-size: 15px;
+        color: #062575;
+    }
+    .text {
+        display: flex;
+        h6 {
+            width: 150px;
+            margin: 0%;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 40px;
+            color: #062575;
+        }
+        p {
+            width: 70%;
+            margin: 0;
+            margin-left: 40px;
+            line-height: 40px;
+            font-weight: 600;
+            font-size: 15px;
+            display: inline;
+            white-space: initial;
+            word-break: break-all;
+        }
+    }
+    .endtext {
+        margin: 0;
+        margin-top: 10px;
+        line-height: 40px;
+        font-weight: 600;
+        font-size: 15px;
+        display: inline;
+        white-space: initial;
+        word-break: break-all;
+        color: #062575;
+    }
+}
+.btn {
+    border: none !important;
+    background-color: #f2f3f3 !important;
+    font-size: 23px !important;
+    color: #062575 !important;
+}
+@media only screen and (max-width: 320px) {
+    .btn {
+        font-size: 100% !important;
+    }
+}
